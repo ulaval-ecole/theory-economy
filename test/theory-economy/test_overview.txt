@@ -1,1 +1,7 @@
-1) Quand un ingegieur veut 
+1) Qui recoit de l'argent 
+	assert result == ["Gouvernement", "Preteur", "Vendeur"]
+2) Qui donne de l'argent
+	assert result == ["Empreunteur", "Citoyen", "Acheteurx"]
+3) Comment l'empreuteur et le preteur interagit
+	assert result == ["L'empreunteur prete de l'argent au preteur, le preteur rembourse de l'argent au preteur avec des interets"]
+
